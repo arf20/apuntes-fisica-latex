@@ -1,0 +1,107 @@
+\documentclass[12pt, letterpaper, twoside]{article}
+
+\usepackage{amsmath}
+
+\title{Apuntes de Ondas}
+\author{Ángel Ruiz Fernández B2A}
+\date{Diciembre 2022}
+
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+
+\newcommand{\dd}[1]{\mathrm{d}#1}
+
+\begin{document}
+	\maketitle
+	
+	Ecuación de onda
+	\begin{equation}
+		\frac{\partial^2 \Psi}{\partial t^2} = v^2 \Delta \Psi
+	\end{equation}
+	
+	en una dimension 
+	\begin{equation}
+		\frac{\partial^2 \Psi}{\partial t^2} = v^2 \frac{\partial^2 \Psi}{\partial x^2}
+	\end{equation}
+	
+	\begin{equation}
+		y(x) = f(x)
+	\end{equation}
+	
+	\begin{equation}
+		y(x, t) = f(x + vt) = f(kx + vt)
+	\end{equation}
+
+La amplitud es el maximo valor que puede alcanzar
+
+Oscilador armónico simple
+	\begin{equation}
+		y(x, t) = A sin(kx + \omega t + \phi_0)
+	\end{equation}
+	$A$ es amplitud, $k$ numero de ondas que hay en $2\pi$, $\omega$ velocidad de propagación
+	
+	\begin{equation}
+		k = \frac{2\pi}{\lambda}
+	\end{equation}
+
+	\begin{equation}
+		\omega = 2\pi f
+	\end{equation}
+
+	\begin{equation}
+		v = \frac{\lambda}{T} = \lambda f = \frac{\omega}{k}
+	\end{equation}
+
+	\begin{equation}
+		\lambda = \frac{v}{f}
+	\end{equation}
+
+	Velocidad de propagación que para ondas mecanicas 
+	\begin{equation}
+		v = \sqrt{\frac{p_{elastica}}{p_{inercial}}} = \sqrt{\frac{T}{\mu}}
+	\end{equation}
+	Freq de armonico $n$ en cuerda de longitud $l$ y v de prop
+	\begin{equation}
+		f = \frac{nv}{2l}
+	\end{equation}
+	
+	Energía
+	\begin{equation}
+		\Delta E = \frac{1}{2} \mu \cdot \Delta x \cdot \omega^2 \cdot A^2 = 2 \mu \cdot \Delta x \cdot \pi^2 \cdot f^2 \cdot A^2
+	\end{equation}
+
+	Potencia
+	\begin{equation}
+		P = \frac{\Delta E}{\Delta t} = 2 \mu \cdot \pi^2 \cdot f^2 \cdot A^2 \cdot v
+	\end{equation}
+	
+	Intensidad
+	\begin{equation}
+		I = \frac{P}{S}
+	\end{equation}
+	De onda esferica
+	\begin{equation}
+		I = \frac{P}{4 \pi r^2}
+	\end{equation}
+	
+	\section{Sonido}
+	La velocidad de propagación del sonido en el aire a 15ºC son $340m/s$.
+	Umbral de audición $I_0 = 10^{-12} W/m^2$ y umbral de dolor humano $I_1 = 1W/m^2$.
+	
+	Decibelio, potencia relacionado con nivel de intensidad
+	\begin{equation}
+		\beta = 10 log (\frac{I}{I_0})
+	\end{equation}
+	\begin{equation}
+		I = I_0 \cdot 10^{\frac{\beta}{10}}
+	\end{equation}
+
+	Velocidad del sonido en el aire
+	\begin{equation}
+		v = \sqrt{\frac{\gamma R T}{M}}
+	\end{equation}
+
+	Efecto doppler
+	\begin{equation}
+		f' = f \frac{v \pm v_0}{v \mp v_F}
+	\end{equation}
+\end{document}

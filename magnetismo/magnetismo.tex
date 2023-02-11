@@ -1,0 +1,125 @@
+\documentclass[12pt, letterpaper, twoside]{article}
+
+\usepackage{amsmath}
+
+\title{Apuntes de Magnetismo}
+\author{Ángel Ruiz Fernández B2A}
+\date{Diciembre 2022}
+
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+
+\newcommand{\dd}[1]{\mathrm{d}#1}
+
+%\usepackage[showframe,paper=a4paper,margin=1in]{geometry}
+%\setlength{\droptitle}{-0.5in}
+
+
+\begin{document}
+	\maketitle
+	
+	Producto vectorial
+	\begin{equation}
+		\vec{C} = \vec{A} \times \vec{B} =
+		\begin{vmatrix}
+			\hat{i} & \hat{j} & \hat{k}\\
+			A_x & A_y & A_z\\
+			B_x & B_y & B_z
+		\end{vmatrix}
+	\end{equation}
+
+	\begin{equation}
+		C = AB sin(\theta) \hat{u}_{A\rightarrow B}
+	\end{equation}
+			
+	$\hat{u}_{A\rightarrow B}$ es lo de enroscar el tapón de $\vec{A}$ a $\vec{B}$
+	
+	\section{Interacción magnética}
+	
+	\subsection{Fuerza de Lorentz}
+	
+	\begin{equation}
+		\vec{F} = q ( \vec{E} + \vec{v} \times \vec{B})
+	\end{equation}
+
+	\begin{equation}
+		F = q v B sin(\theta)
+	\end{equation}
+	
+	\subsection{Fuerza de un campo sobre una corriente}
+	
+	\begin{equation}
+		\vec{F} = I \cdot \vec{l} \times \vec{B}
+	\end{equation}
+	
+	\subsection{Campo magnético de corriente}
+	
+	\begin{equation}
+		I = \dfrac{dq}{dt}
+	\end{equation}
+	
+	\begin{equation}
+		I \vec{dl} = \dfrac{dq}{dt} \vec{dl} = dq \dfrac{\vec{dl}}{dt} = dq \cdot \vec{v}
+	\end{equation}
+	
+	\begin{equation}
+		\vec{dB} = k_m \frac{I\vec{dl} \times \hat{u}_r}{r^2} = k_m \frac{dq \cdot \vec{v} \times \hat{u}_r}{r^2}
+	\end{equation}
+	
+	Particula discreta moviendose
+	\begin{equation}
+		\vec{B} = \frac{\mu_0 q \cdot \vec{v} \times \hat{u}_r}{4 \pi r^2} 
+	\end{equation}
+	
+	
+	En cable recto
+	\begin{equation}
+		\vec{B} = \frac{\mu_0I}{2 \pi r} \hat{u}_n
+	\end{equation}
+	
+	En espira(s)
+	\begin{equation}
+		\vec{B} = \frac{\mu_0NI}{2 r} \hat{u}_n
+	\end{equation}
+
+	\subsection{Orbita de particula cargada}
+
+	\begin{equation}
+		F_c = \frac{mv^2}{r}
+	\end{equation}
+
+	\begin{equation}
+		r = \frac{mv}{qB}
+	\end{equation}
+
+	\begin{equation}
+		\omega = \frac{v}{r}
+	\end{equation}
+
+	\begin{equation}
+		T = \frac{2 \pi}{\omega} = \frac{2 \pi m}{qB}
+	\end{equation}
+	
+	\section{Inducción electromagnética}
+
+	Definir flujo magnético
+
+	\begin{equation}
+		\Phi_B = \iint_\Sigma \vec{B} \cdot \vec{dS}
+	\end{equation}
+
+	\begin{equation}
+		\Phi_B = B S cos(\theta)
+	\end{equation}
+
+	fem, fuerza electromotriz
+	\begin{equation}
+		\epsilon = -\dfrac{d\Phi_B}{dt} = -N \dfrac{d\Phi_B}{dt}
+	\end{equation}
+	
+	corriente I
+	
+	\begin{equation}
+		I = \frac{\epsilon}{R}
+	\end{equation}
+	
+\end{document}

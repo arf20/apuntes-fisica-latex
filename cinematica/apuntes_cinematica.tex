@@ -1,0 +1,63 @@
+\documentclass[12pt, letterpaper, twoside]{article}
+
+\usepackage{amsmath}
+
+\title{Apuntes de cinematica}
+\author{Ángel Ruiz Fernández B1A}
+\date{Marzo 2022, Rev. 2}
+
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+
+\newcommand{\dd}[1]{\mathrm{d}#1}
+
+%\usepackage[showframe,paper=a4paper,margin=1in]{geometry}
+%\setlength{\droptitle}{-0.5in}
+
+
+\begin{document}
+	\maketitle
+	
+	Vector posición $\vec{r}$ definido a partir de sus componentes cartesianas $r_x$ e $r_y$, asumiendo un espacio cartesiano bidimensional
+	
+	\begin{equation}
+		\vec{r} = r_x \hat{\imath} + r_y \hat{\jmath}
+	\end{equation}
+	
+	Vector velocidad $\vec{v}$ a partir del vector posición $\vec{r}$
+	
+	\begin{equation}
+		\vec{v} = \dfrac{d\vec{r}}{dt}
+	\end{equation}
+	
+	Vector aceleración $\vec{a}$ a partir del vector velocidad $\vec{v}$
+	
+	\begin{equation}
+		\vec{a} = \dfrac{d\vec{vº}}{dt}
+	\end{equation}
+	
+	Escalar rapidez $v$ a partir del vector velocidad $\vec{v}$
+	
+	\begin{equation}
+		v = \lvert \vec{v} \lvert = \sqrt{v_x^2 + v_y^2}
+	\end{equation}
+	
+	Vector unitario tangencial a la trayectoria $\hat{u}_t$ a partir de velocidad $\vec{v}$ y rapidez $v$
+	
+	\begin{equation}
+		\hat{u}_t = \frac{\vec{v}}{v}
+	\end{equation}
+	
+	Vector aceleración tangencial $\vec{a}_t$ a partir de la rapidez $v$ y el vector unitario tangencial $\hat{u}_t$
+	
+	\begin{equation}
+		\vec{a}_t = \dfrac{dv}{dt} \cdot \hat{u}_t
+	\end{equation}
+	
+	Vector aceleración normal $\vec{a}_n$ perpendicular a la tangencial en dirección al centro de un circulo tangente a la trayectoria, a partir de su radio $R$ y la rapidez $v$. Y su relación con el vector aceleración $\vec{a}$ y el vector aceleración tangencial $\vec{a}_t$
+	
+	\begin{equation}
+		\vec{a}_n = \frac{v^2}{R} \cdot \hat{u}_n = \vec{a} - \vec{a}_t
+	\end{equation}
+	
+	Suerte my friends el día 9 de Marzo. Made with \LaTeX
+\end{document}
