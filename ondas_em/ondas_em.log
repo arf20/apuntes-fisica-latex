@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.22)  18 MAR 2023 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.22)  18 MAR 2023 00:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -170,7 +170,7 @@ LaTeX Font Info:    ... okay on input line 13.
 Here is how much of TeX's memory you used:
  1625 strings out of 481252
  23155 string characters out of 5915887
- 308386 words of memory out of 5000000
+ 309386 words of memory out of 5000000
  18603 multiletter control sequences out of 15000+600000
  409109 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -185,7 +185,7 @@ t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
 public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb>
-Output written on ondas_em.pdf (2 pages, 91576 bytes).
+Output written on ondas_em.pdf (2 pages, 93060 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
