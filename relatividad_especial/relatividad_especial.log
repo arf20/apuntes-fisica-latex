@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.4.15)  16 APR 2023 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.4.10)  16 APR 2023 20:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -169,12 +169,12 @@ LaTeX Font Info:    ... okay on input line 13.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 (./relatividad_especial.aux) ) 
 Here is how much of TeX's memory you used:
- 1625 strings out of 481252
- 23275 string characters out of 5915888
- 307442 words of memory out of 5000000
- 18603 multiletter control sequences out of 15000+600000
+ 1625 strings out of 481176
+ 23275 string characters out of 5914226
+ 307678 words of memory out of 5000000
+ 18612 multiletter control sequences out of 15000+600000
  409109 words of font info for 47 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 59 hyphenation exceptions out of 8191
  68i,7n,74p,216b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
@@ -186,7 +186,7 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on relatividad_especial.pdf (2 pages, 93668 bytes).
+Output written on relatividad_especial.pdf (2 pages, 93709 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
