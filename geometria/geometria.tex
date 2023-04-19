@@ -1,0 +1,336 @@
+\documentclass[12pt, letterpaper, twoside]{article}
+
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{multicol}
+\usepackage{mathtools}
+
+\title{Apuntes de Geometría}
+\author{Ángel Ruiz Fernández B2A}
+\date{Abril 2023}
+
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+
+\newcommand{\dd}[1]{\mathrm{d}#1}
+
+\begin{document}
+	\maketitle
+	
+	\section{Productos}
+	
+	Escalar
+	\begin{equation}
+		\vec{u} \cdot \vec{v} = |\vec{u}| \cdot |\vec{v}| \cdot cos\alpha = \vec{v}_x \vec{u}_x + \vec{u}_y \vec{v}_y + \vec{u}_z \vec{v}_z
+	\end{equation}
+
+	Vectorial
+	\begin{equation}
+		\vec{u} \times \vec{v} = 
+		\begin{vmatrix}
+			\hat{i}   & \hat{j}   & \hat{k}   \\
+			\vec{u}_x & \vec{u}_y & \vec{u}_z \\
+			\vec{v}_x & \vec{v}_y & \vec{v}_z \\
+		\end{vmatrix}
+	\end{equation}
+
+	Mixto
+	Vectorial
+	\begin{equation}
+		[\vec{u}, \vec{v}, \vec{w}] = 
+		\begin{vmatrix}
+			\vec{u}_x & \vec{u}_y & \vec{u}_z \\
+			\vec{v}_x & \vec{v}_y & \vec{v}_z \\
+			\vec{w}_x & \vec{w}_y & \vec{w}_z \\
+		\end{vmatrix}
+	\end{equation}
+	
+	\section{Ecuaciones de la recta}
+	
+	Sea un punto $P$ y un vector director $\vec{d}$, la recta $r$:
+	
+	Paramétrica
+	\begin{equation}
+		r :
+		\begin{cases}
+			x = P_x + \vec{d}_x \lambda \\
+			y = P_y + \vec{d}_y \lambda \\
+			z = P_z + \vec{d}_z \lambda \\
+		\end{cases}
+	\end{equation}
+
+	Punto genérico
+	\begin{equation}
+		G(\lambda) = (P_x + \vec{d}_x \lambda, P_y + \vec{d}_y \lambda, P_z + \vec{d}_z \lambda)
+	\end{equation}
+	
+	Vectorial
+	\begin{equation}
+		R(\lambda) = P + \vec{d} \lambda
+	\end{equation}
+
+	Continua
+	\begin{equation}
+		\frac{x - P_x}{\vec{d}_x} = \frac{y - P_y}{\vec{d}_y} = \frac{z - P_z}{\vec{d}_z}
+	\end{equation}
+
+	General
+	\begin{equation}
+		r :
+		\begin{cases}
+			A_1x + B_1y + C_1z  D_1 = 0 \\
+			A_2x + B_2y + C_2z  D_2 = 0 \\
+		\end{cases}
+	\end{equation}
+
+
+	\section{Ecuaciones del plano}
+	
+	Sea un punto $P$ y dos vectores directores $\vec{u}$ y $\vec{v}$ o vector normal $\vec{n}$, el plano $\pi$:
+	
+	Con directores
+	\begin{equation}
+		\pi : \begin{cases}
+			P \\
+			\vec{u} \\
+			\vec{v} \\
+		\end{cases}
+	\end{equation}
+
+	Con normal
+	\begin{equation}
+		\pi : \begin{cases}
+			P \\
+			\vec{n} \\
+		\end{cases}
+	\end{equation}
+
+	Paramétrica
+	\begin{equation}
+		\pi :
+		\begin{cases}
+			x = P_x + \vec{u}_x \lambda + \vec{v}_x \mu \\
+			y = P_y + \vec{u}_y \lambda + \vec{v}_y \mu \\
+			z = P_z + \vec{u}_z \lambda + \vec{v}_z \mu \\
+		\end{cases}
+	\end{equation}
+	
+	
+	Implícita
+	\begin{equation}
+		\pi :
+		\begin{vmatrix}
+			x - P_x   & y - P_y   & z - P_z   \\
+			\vec{u}_x & \vec{u}_y & \vec{u}_z \\
+			\vec{v}_x & \vec{v}_y & \vec{v}_z \\
+		\end{vmatrix}
+	\end{equation}
+	\begin{equation}
+		= Ax + By + Cz  D = 0
+	\end{equation}
+
+
+	\section{Posiciones relativas}
+	
+	punto-recta
+	\begin{equation}
+		P = P_r + \vec{d_r} \lambda =
+		\begin{cases}
+			\exists     & P \in r    \\
+			\not\exists & P \not\in r \\
+		\end{cases}
+	\end{equation}
+
+	recta-recta
+	\begin{equation}
+		\vec{d_r} \cdot \vec{d_s}
+		\begin{cases}
+			0     & \perp     \\
+			\not0 & \not\perp \\
+		\end{cases}
+	\end{equation}
+
+	\begin{equation}
+		\vec{d_r} \propto \vec{d_s}
+		\begin{cases}
+			// & P \in r
+			\begin{cases}
+				r \equiv s
+			\end{cases}
+		\end{cases}
+	\end{equation}
+
+	\begin{equation}
+		rg(\vec{d_r}, \vec{d_s}, \vec{P_r P_s})
+		\begin{cases}
+			1     & r \equiv s     \\
+			2     & rg(\vec{d_r}, \vec{d_s})
+			\begin{cases}
+				1     & //       \\
+				2     & secantes \\
+			\end{cases} \\
+			3     & cruzadas
+		\end{cases}
+	\end{equation}
+	
+	punto-plano
+	\begin{equation}
+		A P_x + B P_y + C P_z + D = 0
+		\begin{cases}
+			0     & P \in \pi     \\
+			\not0 & P \not\in \pi \\
+		\end{cases}
+	\end{equation}
+
+	\pagebreak
+	recta-plano
+	\begin{multicols}{2}
+		\noindent
+		\begin{equation}
+			A =
+			\begin{pmatrix}
+				A_{r_1} & B_{r_1} & C_{r_1} \\
+				A_{r_2} & B_{r_2} & C_{r_2} \\
+				A_\pi   & B_\pi   & C_\pi   \\
+			\end{pmatrix}
+		\end{equation}
+		\begin{equation}
+			A' =
+			\begin{pmatrix}
+				A_{r_1} & B_{r_1} & C_{r_1} & D_{r_1} \\
+				A_{r_2} & B_{r_2} & C_{r_2} & D_{r_2} \\
+				A_\pi   & B_\pi   & C_\pi   & D_\pi   \\
+			\end{pmatrix}
+		\end{equation}
+	\end{multicols}
+	\begin{equation}
+		rg(A), rg(A')
+		\begin{cases}
+			2, 2 & r  \in \pi  \\
+			3, 3 & secante     \\
+			2, 3 & //          \\
+		\end{cases}
+	\end{equation}
+	o
+	\begin{equation}
+		A (P_{r_x} + \vec{d_r}_x) \lambda + B (P_{r_y} + \vec{d_r}_y) \lambda + C (P_{r_z} + \vec{d_r}_z) \lambda + D = 0
+		\begin{cases}
+			0=0                 & r \in \pi   \\
+			\exists\lambda      & secante     \\
+			\not\exists\lambda  & //          \\
+		\end{cases}
+	\end{equation}
+	o
+	\begin{equation}
+		\begin{cases}
+			\vec{d_r} \cdot \vec{n_\pi} = 0 \quad \text{y} \quad P_r \in \pi       & r \in \pi   \\
+			\vec{d_r} \cdot \vec{n_\pi} \not= 0                 & secante     \\
+			\vec{d_r} \cdot \vec{n_\pi} = 0 \quad \text{y} \quad P_r \not\in \pi   & //          \\
+		\end{cases}
+	\end{equation}
+	
+	\section{Distancias}
+	
+	punto-punto
+	\begin{equation}
+		d(A, B) = \sqrt{\vec{AB}_{x}^2 + \vec{AB}_{y}^2 + \vec{AB}_{z}^2}
+	\end{equation}
+
+	punto-recta
+	\begin{equation}
+		d(P, r(A, \vec{d_r})) = \frac{|\vec{d_r} \times \vec{AP}|}{|\vec{d_r}|}
+	\end{equation}
+
+	punto-plano
+	\begin{equation}
+		d(P(x_0, y_0, z_0), \pi) = \frac{|Ax_0 + By_0 + Cz_0 + D|}{\sqrt{A^2 + B^2 + C^2}}
+	\end{equation}
+
+	recta-recta //
+	\begin{equation}
+		d(r, s) = d(P_r, s) = d(P_s, r)
+	\end{equation}
+
+	recta-recta cruzadas
+	\begin{equation}
+		d(r, s) = h = \frac{V}{A_b} = \frac{|[\vec{P_r P_s}, \vec{d_r}, \vec{d_s}]|}{|\vec{d_r} \times \vec{d_s}|}
+	\end{equation}
+
+	recta-plano //
+	\begin{equation}
+		d(r, \pi) = d(P_r, \pi)
+	\end{equation}
+
+	
+	\section{Ángulos}
+	
+	vector-vector o recta-recta $d_r$ $d_s$
+	\begin{equation}
+		cos(\alpha) = \frac{|\vec{u} \cdot \vec{v}|}{|\vec{u}| \cdot |\vec{v}|}
+	\end{equation}
+
+	plano-plano (sus normales)
+	\begin{equation}
+		\theta(\pi_1, \pi_2) = \theta(n_{\pi_1}, n_{\pi_2})
+	\end{equation}
+
+	recta-plano
+	\begin{equation}
+		\theta(r, \pi) = \theta(d_r, n_\pi)
+	\end{equation}
+
+	\section{Áreas}
+	
+	Paralelogramo
+	\begin{equation}
+		A = |\vec{AB} \times \vec{AC}|
+	\end{equation}
+	
+	Triangulo
+	\begin{equation}
+		A = \frac{1}{2} |\vec{AB} \times \vec{AC}|
+	\end{equation}
+
+
+	\section{Intersecciones}
+	
+	\begin{itemize}
+		\item recta-recta secantes:
+		Igualar paramétricas
+		
+		\item recta-plano:
+		Substituir la paramétrica de $r$ en implícita de $\pi$
+		
+		\item plano-plano:
+		Simplemente juntas las dos implícitas y esa es la recta
+	\end{itemize}
+
+	\section{Proyecciones}
+	
+	\begin{itemize}
+		\item punto en recta:
+		Plano perpendicular a $r$ que contenga $P$: $\pi: P, \vec{d_r}$;
+		Cortar $r$ con $\pi$; P'
+		
+		\item punto en plano:
+		Perpendicular a $\pi$ que pasa por $P$: $r: P, \vec{n_\pi}$;
+		Cortar $r$ con $\pi$; P'
+		
+		\item recta en plano:
+		Proyectar dos puntos de la recta en el plano y hacer recta proyectada; 
+		o Hacer plano perpendicular a $\pi$ que contenga a $r$ y intersección de planos
+	\end{itemize}
+
+
+	\section{Volúmenes}
+
+	Paralelepípedo
+	\begin{equation}
+		V = |[\vec{AB}, \vec{AC}, \vec{AD}]|
+	\end{equation}
+	
+	Tetraedro 
+	\begin{equation}
+		V = \frac{1}{6} |[\vec{AB}, \vec{AC}, \vec{AD}]|
+	\end{equation}
+	
+\end{document}
