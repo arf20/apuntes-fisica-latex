@@ -1,6 +1,7 @@
 \documentclass[12pt, letterpaper, twoside]{article}
 
 \usepackage{amsmath}
+\usepackage{siunitx}
 
 \title{Apuntes de Cuantica}
 \author{Ángel Ruiz Fernández B2A}
@@ -13,25 +14,34 @@
 \begin{document}
 	\maketitle
 	
-	$1eV = 1.602 \cdot 10^{-19} J$
+	$q_e = 1.602 \cdot 10^{-19} \si{C}$
 	
-	$1 \AA = 10^{-10}m$
+	$1 \si{eV} = 1.602 \cdot 10^{-19} \si{J}$
+	
+	$1 \si{\AA} = 10^{-10} \si{m}$
+	
+	$m_e = 9.11 \cdot 10^{-31} \si{kg}$
+	
+	Energía en eV es la que obtiene un electron cuando pasa por un potencial de V
+	\begin{equation}
+		V = \frac{mv^2}{2q}
+	\end{equation}
 	
 	\section{Cuerpo negro}
 	
-	Ley de Stefan-Boltzmann $\sigma = 5.67 \cdot 10^{-8} W \cdot m^{-2} K^{-4} $ $I$ instensidad, $T$ temperatura absoluta
+	Ley de Stefan-Boltzmann $\sigma = 5.67 \cdot 10^{-8} \si{W \cdot m^{-2} K^{-4}}$ $I$ instensidad, $T$ temperatura absoluta
 	\begin{equation}
 		I = \sigma T^4
 	\end{equation}
 	
 	Ley de desplazamiento de Wien	
 	\begin{equation}
-		\lambda_{max} T = 0.2897 cm \cdot K
+		\lambda_{max} T = 0.2897 \si{cm \cdot K}	
 	\end{equation}
 
 	\section{Efecto fotoelectrico}
 	
-	Energía del fotón $h = 6.64 \cdot 10^{-34} J \cdot s$
+	Energía del fotón $h = 6.64 \cdot 10^{-34} \si{J \cdot s}$
 	\begin{equation}
 		E = hf
 	\end{equation}
@@ -47,12 +57,11 @@
 	\end{equation}
 
 	\section{Espectros atomicos y Bohr}
-	Rydberg y Ritz $R = 1.0967760 \cdot 10^{-7} m^{-1}$
+	Rydberg y Ritz $R = 1.0967760 \cdot 10^{-7} \si{m^{-1}}$
 	\begin{equation}
 		\frac{1}{\lambda} = R ( \frac{1}{n_{1}^2} - \frac{1}{n^{2}_2})
 	\end{equation}
 
-	\pagebreak
 	Series
 	\begin{itemize}
 		\item n = 1 Lyman | UV
@@ -65,12 +74,12 @@
 
 	Radio orbitas del H
 	\begin{equation}
-		r = 0.529 \cdot n^2 \AA
+		r = 0.529 \cdot n^2 \si{\AA}
 	\end{equation}
 
 	Energía orbitas del H
 	\begin{equation}
-		E_{total} = - \frac{13.6}{n^2} eV
+		E_{total} = - \frac{13.6}{n^2} \si{eV}
 	\end{equation}
 
 	\section{Dualidad onda particula y hipotesis de De Broglie}
