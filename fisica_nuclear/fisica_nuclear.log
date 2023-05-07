@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2022.3.14)  2 MAY 2023 13:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2022.3.14)  2 MAY 2023 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**geometria.tex
-(./geometria.tex
+**fisica_nuclear.tex
+(./fisica_nuclear.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -151,186 +151,31 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \backup@length=\skip53
 \ar@cellbox=\box61
 ))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count282
-\mult@box=\box62
-\multicol@leftmargin=\dimen155
-\c@unbalance=\count283
-\c@collectmore=\count284
-\doublecol@number=\count285
-\multicoltolerance=\count286
-\multicolpretolerance=\count287
-\full@width=\dimen156
-\page@free=\dimen157
-\premulticols=\dimen158
-\postmulticols=\dimen159
-\multicolsep=\skip54
-\multicolbaselineskip=\skip55
-\partial@page=\box63
-\last@line=\box64
-\maxbalancingoverflow=\dimen160
-\mult@rightbox=\box65
-\mult@grightbox=\box66
-\mult@firstbox=\box67
-\mult@gfirstbox=\box68
-\@tempa=\box69
-\@tempa=\box70
-\@tempa=\box71
-\@tempa=\box72
-\@tempa=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\c@minrows=\count288
-\c@columnbadness=\count289
-\c@finalcolumnbadness=\count290
-\last@try=\dimen161
-\multicolovershoot=\dimen162
-\multicolundershoot=\dimen163
-\mult@nat@firstbox=\box105
-\colbreak@box=\box106
-\mc@col@check@num=\count291
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
+(/usr/local/texlive/2021/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
-)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count292
-\calc@Bcount=\count293
-\calc@Adimen=\dimen164
-\calc@Bdimen=\dimen165
-\calc@Askip=\skip56
-\calc@Bskip=\skip57
+\calc@Acount=\count282
+\calc@Bcount=\count283
+\calc@Adimen=\dimen155
+\calc@Bdimen=\dimen156
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count294
-\calc@Cskip=\skip58
+\calc@Ccount=\count284
+\calc@Cskip=\skip56
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
 )
-\g_MT_multlinerow_int=\count295
-\l_MT_multwidth_dim=\dimen166
-\origjot=\skip59
-\l_MT_shortvdotswithinadjustabove_dim=\dimen167
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen168
-\l_MT_above_intertext_sep=\dimen169
-\l_MT_below_intertext_sep=\dimen170
-\l_MT_above_shortintertext_sep=\dimen171
-\l_MT_below_shortintertext_sep=\dimen172
-\xmathstrut@box=\box107
-\xmathstrut@dim=\dimen173
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count285
+\g__chemgreek_tmpa_int=\count286
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count296
-\Gm@cntv=\count297
-\c@Gm@tempcnt=\count298
-\Gm@bindingoffset=\dimen174
-\Gm@wd@mp=\dimen175
-\Gm@odd@mp=\dimen176
-\Gm@even@mp=\dimen177
-\Gm@layoutwidth=\dimen178
-\Gm@layoutheight=\dimen179
-\Gm@layouthoffset=\dimen180
-\Gm@layoutvoffset=\dimen181
-\Gm@dimlist=\toks23
-)
-Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 16.
-
-(./geometria.aux)
-\openout1 = `geometria.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-
-(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
-\scratchdimen=\dimen182
-\scratchbox=\box108
-\nofMPsegments=\count300
-\nofMParguments=\count301
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count302
-\MPscratchDim=\dimen183
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
-\everyMPtoPDFconversion=\toks25
-)))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-d
-ictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `tra
-nslations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 16.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
@@ -341,10 +186,112 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\l__mhchem_ce_distanceFromLastComma_int=\count287
+\__mhchem_arrow_extPgfLength_skip=\skip57
+\mhchem@minispace@tmp=\skip58
+\mhchem@minibackspace@tmp=\skip59
+\mhchem@bondwidth=\skip60
+\mhchem@bondheight=\skip61
+\mhchem@smallbondwidth@tmpA=\skip62
+\mhchem@smallbondwidth@tmpB=\skip63
+\mhchem@smallbondwidth=\skip64
+\mhchem@bondtmp@minussidebearingleft=\skip65
+\mhchem@bondtmp@minussidebearingright=\skip66
+\l__mhchem_option_version_int=\count288
+\mhchem@option@minusmathsidebearingleft=\dimen157
+\mhchem@option@minusmathsidebearingright=\dimen158
+\mhchem@option@minustextsidebearingleft=\dimen159
+\mhchem@option@minustextsidebearingright=\dimen160
 )
-\Gin@req@height=\dimen184
-\Gin@req@width=\dimen185
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
 )
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count289
+\Gm@cntv=\count290
+\c@Gm@tempcnt=\count291
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks23
+)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 15.
+
+(./fisica_nuclear.aux)
+\openout1 = `fisica_nuclear.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 15.
+
+Package chemgreek Info: Activating mapping `default' on line 15.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count292
+\scratchdimen=\dimen169
+\scratchbox=\box62
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen170
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -382,33 +329,30 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4] [5] (./geometria.aux) ) 
+(./fisica_nuclear.aux) ) 
 Here is how much of TeX's memory you used:
- 7266 strings out of 478276
- 165787 string characters out of 5846504
- 453105 words of memory out of 5000000
- 25437 multiletter control sequences out of 15000+600000
- 475275 words of font info for 49 fonts, out of 8000000 for 9000
+ 7551 strings out of 478276
+ 175841 string characters out of 5846504
+ 471139 words of memory out of 5000000
+ 25715 multiletter control sequences out of 15000+600000
+ 475502 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,12n,79p,226b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/en
-c/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/s
-frm1200.pfb>
-Output written on geometria.pdf (5 pages, 137287 bytes).
+ 71i,16n,79p,344b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-
+super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm12
+00.pfb>
+Output written on fisica_nuclear.pdf (1 page, 93517 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
